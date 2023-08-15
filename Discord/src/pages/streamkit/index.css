@@ -1,0 +1,428 @@
+.secao-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 130px 0px;
+    color: #fff;
+    background-size: cover;
+    background-color: #5865f2;
+    position: relative;
+    overflow: hidden;
+}
+
+.secao-01  a {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s1-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin-bottom: 140px;
+}
+
+.s1-cabecalho > a {
+    font: 14px 'discord3';
+    background-color: #fff;
+    color: #23272a;
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+.s1-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.s1-menu a {
+    margin: 5px 20px;
+    font: 16px 'discord4';
+}
+
+.s1-menu a:hover {
+    text-decoration: underline;
+}
+
+.secao-01 > h1 {
+    font: 56px  'discord1';
+    width: 1000px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    padding-left: 200px;
+}
+
+.secao-01 > p {
+    font: 20px 'discord2';
+    width: 780px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    padding-left: 200px;
+}
+
+.secao-02 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 80px 60px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+}
+
+.linha {
+    flex-direction: row;
+    display: flex;
+    margin-top: 90px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sub > h1 {
+    font: 32px 'discord3';
+    margin-bottom: 27px;
+}
+
+.sub > p {
+    font: 20px 'discord2';
+    width: 1180px;
+    line-height: 30px;
+}
+
+.card > img {
+    width: 200px;
+    height: 160px;
+}
+
+.card > h1 {
+    color: #5865f2;
+    font: 24px 'discord4';
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.card > p {
+    font: 20px 'discord2';
+    text-align: center;
+    width: 380px;
+    line-height: 30px;
+}
+
+.card a {
+    color: #00b0f4;
+    font: 20px 'discord2';
+}
+
+.card a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.secao-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 420vh;
+    padding-top: 100px;
+}
+
+.secao-03 h1 {
+    font: 45px 'discord1';
+}
+
+.secao-03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding-top: 100px;
+
+}
+
+.secao-03 > h1{
+    font: 40px 'discord1';
+    color: #23272a;
+
+
+}
+
+.secao-03 > p {
+    font: 20px 'discord2';
+    text-align: center;
+    width: 1200px;
+    margin-top: 19px;
+    margin-bottom: 80px;
+}
+
+.agrup-fileiras{
+    display: flex;
+    flex-direction: row;
+}
+
+.fileiras{
+    display: flex;
+    flex-direction: column;
+}
+
+.s3-card{
+    margin: 20px;
+    background-color: #fff;
+    width: 600px;
+    height: 760px;
+    padding: 80px 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.s3-card > img{
+    width: 77px;
+    height: 90px;
+    align-self: center;
+}
+
+
+.s3-card > h1 {
+    font: 32px 'discord6';
+    align-self: center
+}
+
+.s3-card > p {
+    font: 16px 'discord3';
+    margin-top: 25px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.confere {
+    font: 15px 'discord4' !important;
+    width: 250px;
+}
+
+.conferes {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.conferes > svg {
+    color: #43cc19;
+    margin-right: 10px;
+
+}
+
+.fundo{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 14px 'discord4';
+    background-color: #5865f2;
+    padding: 7px 16px;
+    width: 170px;
+    height: 38px;
+    color: #fff !important;
+    border-radius: 50px;
+}
+
+.s3-card-as{
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.s3-card-as > a {
+    font: 12px;
+    color: #00b0f4;
+    margin: 10px;
+}
+
+.saibamais{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 14px 'discord4';
+    background-color: #5865f2;
+    padding: 7px 16px;
+    width: 110px;
+    height: 40px;
+    color: #fff !important;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.youtube{
+    height: 80px !important;
+    width: 80px !important;
+    margin-bottom: 20px !important;
+}
+
+.s3-card > a{
+    font: 12px;
+    color: #00b0f4;
+    margin: 10px;
+    align-self: center;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+.rodape{
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #23272a;
+ }
+ 
+ .colunas{
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #404eed;
+ 
+ }
+ 
+ .coluna-1 h1{
+    font: 34px 'discord1';
+    color: #404eed;
+    width: 280px;
+    margin-bottom: 20px;
+ }
+ 
+ .coluna-1 select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font: 15px 'discord5';
+    color: #fff;
+ }
+ 
+ .coluna-1 img{
+    width: 24px;
+    height: 16px;
+ }
+ 
+ .coluna-2{
+    flex-direction: column;
+    display: flex;
+    margin-left: 130px;
+ }
+ 
+ .c2-titulo{
+    font: 20px 'discord4'; 
+    color: #404eed !important;
+ }
+ 
+ .coluna-2 a{
+    color: #fff;
+    margin: 8px;
+    font: 17px 'discord2';
+ }
+ 
+ .c3-titulo{
+    font: 20px 'discord4'; 
+    color: #404eed !important;
+ }
+ 
+ .coluna-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+ }
+ 
+ .coluna-3 a{
+    color: #fff;
+    margin: 8px;
+    font: 17px 'discord2';
+ }
+ 
+ .c4-titulo{
+    font: 20px 'discord4'; 
+    color: #404eed !important;
+ }
+ 
+ .coluna-4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+ }
+ 
+ .coluna-4 a{
+    color: #fff;
+    margin: 8px;
+    font: 17px 'discord2';
+ }
+ 
+ .c5-titulo{
+    font: 20px 'discord4'; 
+    color: #404eed !important;
+ }
+ 
+ .coluna-5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+ }
+ 
+ .coluna-5 a{
+    color: #fff;
+    margin: 8px;
+    font: 17px 'discord2';
+ }
+ 
+ .rodapesub{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+ }
+ 
+ .rodapesub svg{
+    color: #fff;
+ }
+ 
+ .rodapesub a{
+    background-color: #5855f2;
+    color: #fff;
+    font: 15px 'discord3';
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    transition: 0.3s;
+ 
+ 
+ }
+ 
+ .rodapesub >a:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    background-color: #8280e9;
+ }
+ 
+ 

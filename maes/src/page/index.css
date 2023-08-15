@@ -1,0 +1,184 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 2px 18px -10px rgb(0 0 0 / 30%);
+
+}
+
+.cabecalho h1{
+    font: 32px 'maes2';
+    padding: 20px 10px;
+    color: #fca79e;
+
+}
+
+.cabecalho img{
+    width: 32px;
+    height: 32px;
+    margin: 30px 5px;
+}
+
+.secao-01{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.s1-conteudo{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.s1-textos{    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 40px;
+}
+
+.s1-textos h1{
+    font: 56px 'maes4';
+    color: #f7796c;
+    max-width: 320px;
+    width: 100%
+}
+
+
+
+.s1-textos a{
+    font: 16px 'maes4';
+    text-decoration: none;
+    background-color: #ee5545;
+    color: white;
+    max-width: 255px;
+    border-radius: 50px;
+    width: 100%;
+    padding: 16px 18px 16px;
+    
+}
+
+.imagem-s1 img{
+    max-width: 560px;
+    width: 100%;
+}
+
+.s1-textos h2{
+    font: 20px 'maes4';
+    color: #f7796c;
+    max-width: 320px;
+    width: 100%;
+    
+}
+
+.s1-textos p{
+    font: 16px 'maes2';
+    max-width: 320px;
+    line-height: 25px;
+}
+
+.secao-02{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.agrup-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.secao-02 > h1{
+    font: 48px 'maes2';
+    color: #ee5545;
+}
+
+.card img{
+    max-width: 38px;
+}
+
+.card h1{
+    max-width: 210px;
+    font: 20px 'maes4';
+    color: #f7796c;
+}
+
+.card p{
+    max-width: 520px;
+    font: 14px 'maes2';
+    text-align: center;
+}
+
+.card a{
+    font: 16px 'maes2';
+    background-color: #ee5545;
+    padding: 8px 9px 9px;
+    color: #f2f2f2;
+    border-radius: 50px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape h1{
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    color: #f7796c;
+    font: 20px 'maes4';
+    padding: 20px;
+}
+
+.rodape img{
+    max-width: 50px;
+    width: 100%;
+}
+
+@media (max-width: 760px) {
+    .s1-conteudo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .linha{
+        flex-direction: column;
+    }
+
+    .secao-02 h1{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 323px) {
+    .s1-textos a{
+        padding: 8px 10px 8px;;
+    }
+}

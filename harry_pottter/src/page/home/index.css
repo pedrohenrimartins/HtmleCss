@@ -1,0 +1,403 @@
+body{
+    background-color: #030328;
+}
+
+.faixa {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.3);
+    justify-content: space-between;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+}
+
+.faixa img {
+    width: 200px;
+    height: 50px;
+    margin: 13px;
+}
+
+.direita {
+    display: flex;
+    padding: 20px;    
+}
+
+.direita a {
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font: 13px 'harry1';
+
+}
+
+.roxo {
+    background-color: #b553f6;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font: 13px 'harry1' !important;
+    padding: 15px 20px;    
+}
+
+.principal {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudo {
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.conteudo img {
+    width: 299px;
+    height: 241px;
+    margin-left: 120px;
+}
+
+
+
+.conteudo h1 {
+    font: 16px 'harry3';
+    color: #fff;
+    height: 35px;
+    width: 350px;
+    background-image: linear-gradient( to left, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 20px;
+}
+
+.conteudo p {
+    font: 17px 'harry1';
+    color: #d0b36a;
+    width: 350px;
+    margin-left: 120px;
+    margin-top: 24px;
+}
+
+.conteudo h2 {
+    font: 50px 'harry1';
+    color: #d0b36a;
+    width: 530px;
+    margin-left: 120px;
+    line-height: 75px;
+    margin-top: 20px;
+}
+
+.conteudo h3 {
+    font: 30px 'harry2';
+    color: #d0b36a;
+    width: 350px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.principal a {
+    margin-left: 120px;
+    margin-top: 40px;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    width: 200px;
+    text-align: center;
+    padding: 13px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font: 15px 'harry1';
+    letter-spacing: 2px;
+}
+
+.termos{
+    color: #d0b360;
+    font: 12px 'harry3' !important;
+    margin-top: 5px !important;
+    margin-left: 120px;
+}
+
+.secao-02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.secao-02 h1{
+    font: 20px 'harry2';
+    color: #d0b360;
+}
+
+.secao-02 p{
+    font: 16px 'harry3';
+    color: #fff;
+    width: 700px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 40px;
+}
+
+.secao-02 img{
+    width: 830px;
+    height: 437px;
+    margin-top: 50px;
+}
+
+.secao-03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#030328 ;
+    padding: 20px;
+}
+
+.fileira-s3{
+    display: flex;
+    flex-direction: row;
+}
+
+.risco{
+    background-color: #b535f6;
+    width: 3px;
+    height: 98px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.secao-03 h3{
+    font: 32px 'harry2';
+    color: #d0b36a;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.cards-s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-s3 img{
+    width: 350px;
+    height: 431px;
+    margin-right: 40px;
+}
+
+.nome{
+    color: #d0b36a;
+    font: 20px 'harry5';
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sobrenome{
+    font: 16px 'harry5';
+    text-align: center;
+    color: white;
+}
+
+.secao-04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-04 h1 {
+    font: 28px 'harry3';
+    color: #d0b360;
+    margin-bottom: 30px;
+}
+
+.fileira-s4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.s4-card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.s4-card img{
+    height: 382px;
+    width: 255px;
+}
+
+.s4-card h1{
+    font: 19px 'harry5';
+    color: #d0b36a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 255px;
+    text-align: center;
+}
+
+.s4-card p{
+    width: 225px;
+    font: 16px 'harry2';
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+}
+
+.secao-05{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-05 h1{
+    font: 28px 'harry3';
+    color: #d0b36a;
+}
+
+.galeria{
+    margin-top: 50px;
+    width: 920px;
+    height: 535px;
+}
+
+.fileira-s5{
+    display: flex;
+    flex-direction: row;
+}
+
+.galeria1{
+    width: 820px;
+    height: 435px;
+    margin-top: 100px;
+}
+
+.secao-06{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fileira-s6{
+    display: flex;
+    flex-direction: row;
+}
+
+.fileiras-s6 img{
+    width: 255px;
+    height: 144px;
+    margin-right: 30px;
+    box-shadow: 3px 3px 20px #4c0570;
+    margin-bottom: 30px;
+}
+
+.secao-07{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileira-s7{
+    background-image: url("https://hbomax-images.warnermediacdn.com/2021-12/hp-reu-banner-dsk-bpo.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=2800");
+    height: 247px;
+    width: 930px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 80px;
+}
+
+.fileira-s7 h1{
+    font: 20px 'harry3';
+    color: #d0b36a;
+    width: 220px;
+}
+
+.fileira-s7 p {
+    font: 16px 'harry2';
+    color: #fff;
+    width: 220px;
+    line-height: 30px;
+}
+
+.assineagora{
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 13px 'harry1' !important;
+    padding: 15px 20px;
+    width: 164px;
+    height: 32px;   
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.r-titulo{
+    font: 14px 'harry1';
+    color: #9e86ff;
+    margin-right: 40px;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.r-sub{
+    color: #9e86ff;
+    font: 12px 'harry2';
+    margin-right: 40px;
+}
+
+.direitos{
+    color: #9e86ff;
+    font: 12px 'harry2';
+    margin-top: 20px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.redes img{
+    width: 16px;
+    height: 24px;
+    margin-right: 40px;
+}
+
+
+
+

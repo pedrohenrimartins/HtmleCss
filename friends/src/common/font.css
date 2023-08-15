@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'friends1';
+    src: url('../assets/font/Gilroy-Bold.woff2');
+}
+
+
+
+@font-face {
+    font-family: 'friends2';
+    src: url('../assets/font/Gilroy-Medium.woff2');
+}
+
+
+@font-face {
+    font-family: 'friends3';
+    src: url('../assets/font/Gilroy-Regular.c78720ba66ffe58324e722d0d0043b17.woff2');
+}
+
+
+@font-face {
+    font-family: 'friends4';
+    src: url('../assets/font/Gilroy-Regular.woff2');
+}
+
+
+@font-face {
+    font-family: 'friends5';
+    src: url('../assets/font/street-bold.woff2');
+}
+
+
+@font-face {
+    font-family: 'friends6';
+    src: url('../assets/font/street.woff2');
+}
+
+
+@font-face {
+    font-family: 'friends7';
+    src: url('../assets/font/Gilroy-Medium.1e8ac32cfb9ee12c65c8d4e99807a81f.woff2');
+}
+
